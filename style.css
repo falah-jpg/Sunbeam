@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comic Sans MS', 'Trebuchet MS', sans-serif;
+  color: #333;
+  min-height: 100vh;
+}
+
+nav {
+ background-color: pink;
+ padding: 15px;
+ text-align: center;
+ border-bottom: 4px solid black;
+ top: 0;
+ z-index: 100000;
+}
+
+
+nav a {
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.15);
+}
+
+nav a:hover {
+  color: black;
+  background-color: #ffe066;
+  border: 2px solid #999;
+}
+
+nav a.active {
+  background-color: #ffd43b;
+}
+
+body.morning {
+  background: linear-gradient(to bottom, #b1e8f1, #fffa9a);
+}
+
+body.afternoon {
+  background: linear-gradient(to bottom, #b1e8f1, #fffa9a);
+}
+
+body.evening {
+  background: linear-gradient(to bottom, #b1e8f1, #fffa9a);
+}
+
+body.night {
+  background: linear-gradient(to bottom, #b1e8f1, #fffa9a);
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px 20px 60px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+p.subtitle {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.gallery img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 4px solid white;
+  box-shadow: 3px 3px 8px #999;
+}
+
+.schedule {
+  list-style: none;
+  background-color: rgba(255, 255, 243, 0.876);
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.schedule li {
+  padding: 10px 5px;
+  border-bottom: 1px dashed #ccc;
+  font-size: 17px;
+}
+
+
+
